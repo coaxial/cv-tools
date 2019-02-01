@@ -4,7 +4,7 @@
   "description": "Framework to iterate over LaTeX documents and uploading to S3",
   "main": "gulp",
   "scripts": {
-    "start": "gulp",
+    "start": "gulp work",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
