@@ -1,6 +1,6 @@
 {
   "name": "cv-tools",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Framework to iterate over LaTeX documents and uploading to S3",
   "main": "gulp",
   "scripts": {
@@ -26,7 +26,7 @@
     "gulp-shell": "^0.5.2"
   },
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=10.15.0"
   },
   "dependencies": {}
 }
