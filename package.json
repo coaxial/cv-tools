@@ -5,7 +5,8 @@
   "main": "gulp",
   "scripts": {
     "start": "gulp work",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "gulp publish"
   },
   "repository": {
     "type": "git",
