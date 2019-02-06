@@ -20,9 +20,7 @@ gulp.task('default', () => {
   gutil.log('');
 });
 
-gulp.task('publish', gulp.series('compile', 'pack:zip', 'upload:s3', () => {
-  done();
-}));
+gulp.task('publish', gulp.series('compile', 'pack:zip', 'upload:s3'));
 
 gulp.task('work', () => {
   gulp.watch(`${config.srcPath}/**/*.{tex,cls}`, gulp.series('compile'));
