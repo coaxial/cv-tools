@@ -5,4 +5,4 @@ aws_config.json
 config.json
 dist/
 src
-aws_config.json~
+*.json~
