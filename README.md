@@ -97,6 +97,9 @@ All of them are located in `tasks/`, I modularized to help with maintenance and
 readability. This is where to look if you're curious about how the tool works
 under the hood.
 
+For convenience, the `work` and `publish` gulp tasks are also runnable with
+`npm run {work,publish}`.
+
 
 ## Contributions
 
