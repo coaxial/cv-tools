@@ -2,6 +2,14 @@
 
 A set of gulp tasks to manage, package, and share LaTeX documents.
 
+## Quick start
+```
+$ nvm install 16
+$ nvm use
+$ npm i
+$ npm run work
+```
+
 ## What is this?
 
 I created this set of gulp tasks to help me manage my CV. I write my CV in
